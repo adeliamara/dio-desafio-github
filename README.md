@@ -1,3 +1,3 @@
-# Desafio de projeto sobre git/gihub - Ifood Java Beginners
+# Bootcamp Java Beginners
 
-Repositório criado para o desafio de projeto.
+Repositório com os materiais e códigos utilizados durante o bootcamp.
