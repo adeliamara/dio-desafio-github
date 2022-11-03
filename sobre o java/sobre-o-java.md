@@ -29,8 +29,8 @@ Atualmente, o java é utlizado em:
 * App para smartphones.
 
 Evolução das versões do Java, destaque para:
-*J2SE 5.0: Introdução do Genéricas, enumeração, autoboxing e for-each;
-*JAVA SE 8: Melhor interação com coleções, interfaces
-*JAVA SE 11: Métodos de leitura e escrita em arquivos
+* J2SE 5.0: Introdução do Genéricas, enumeração, autoboxing e for-each;
+* JAVA SE 8: Melhor interação com coleções, interfaces
+* JAVA SE 11: Métodos de leitura e escrita em arquivos
 
 
