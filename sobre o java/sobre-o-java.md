@@ -34,3 +34,20 @@ Evolução das versões do Java, destaque para:
 * JAVA SE 11: Métodos de leitura e escrita em arquivos
 
 
+## IDE EM JAVA
+
+* Eclipse: Interface bem interativa.
+* IntelliJ: limitado a forma community. Tem tomadas de decisão baseada nos nossos códigos.
+* VScode: É utilizado para diversas linguagens.
+
+### Para começar desenvolver em JAVA é necessário ter o JDK instalando. A versão deve ser definida baseada nas ncessidades do projeto.
+
+* Algumas IDEs como o VScode e o IntelliJ já conseguem baixar o JDK sozinho de forma fácil.
+
+* Para instalar, busque por JAVA JDK <version>. Selecione o arquivo .exe;
+Ao concluir a instalção, ja baixa o JRE.
+
+* Para verificar se a variavél de ambiente está  configuado corretamente, verifique as variáveis de ambiente.
+
+
+
