@@ -3,7 +3,8 @@
 
 ## Sintaxe de declaração de uma nova classe
 
-```public class ClassName {
+```
+public class ClassName {
 
 	//seu codigo aqui
 
@@ -19,14 +20,14 @@
 * Comentários são feitos com //
 
 * Variaveis no padrao camelCase
-	``` int ano = 2022;
+	`int ano = 2022;`
 
 * Constantes são todas em maiusculo. Separadas por underscore quando necessário.
-	``` final String BR = "BRASIL";
+	` final String BR = "BRASIL";`
 
 * Estrutura de declaração de variaveis
 
-	``` Tipo NomeBemDefinido = Atribuição opcional;
+	`Tipo NomeBemDefinido = Atribuição opcional;
 
 * Declarando metodos 
 
