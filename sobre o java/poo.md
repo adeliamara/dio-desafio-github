@@ -25,7 +25,7 @@ Definem e realizam determinados comportasmentos.
 
 ~~~java
  visibildade tipo modificador retorno nome (parametros) exceções copo 
-~~~~
+~~~
 
 * V: public, protect, private
 * T: concreto ou abstrato
@@ -45,7 +45,7 @@ Aqui a subclasse é uma extensão de uma superclasse. A subclasse consegue reapr
 ~~~ Java
 class A extends B{
 }
-~~
+~~~
 
 ### A herança pode ser simples ou multipla. No caso de heranças simples, uma casa filha possui apenas uma classe mãe.
 
