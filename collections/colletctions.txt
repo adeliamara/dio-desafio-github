@@ -1,0 +1,6 @@
+# Collections
+
+* É um objeto que agrupa múltiplos elementos (variaveis primitivas ou objetos) dentro de uma unidade.
+* Utilizada para armazenar e processar conjunto de dados de forma eficiente
+
+Estruturado através de infertaces. 
