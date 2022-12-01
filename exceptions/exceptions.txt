@@ -1,0 +1,11 @@
+# Tramento de erros
+
+## ERROR
+
+Usado pela JVM que serve para indicar se existe algum problema de recurso do problema, tornando a execução impossível de continuar.
+Esse erro nao podem ser tratados.
+## Unchecked exception: 
+Geralmente são erros de logica. Exceptions qe posem ser evitdo se forem tratados e analisados pelo dev.
+
+## Checked exception:
+Exceptions que devem ser evitado e tratados pelo dev para o programa funcionar. Todas as subclasses quenao herdam de runtimException

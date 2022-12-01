@@ -4,3 +4,26 @@
 * Utilizada para armazenar e processar conjunto de dados de forma eficiente
 
 Estruturado através de infertaces. 
+
+# Interface List: java.util.List
+
+- permite elementos duplicados e garante ordem de inserção
+
+As principais implementações da interface list são:
+
+ * Vector: threads
+ * ArrayList: implementa inferface List
+ * LinkedList: implementa interface List e LinkedList
+
+
+
+Quando escolhar ArrayList ou Linked list?
+
+ArrayList: quando há mais operações de pesquisa
+Por tras, usa um array
+LinkedList: quando há muitas operações de inserção e exclusão
+Por tras, usa uma lista duplamente ligada. Por isso, maior perfomance para inserção e exclusao
+
+
+
+
