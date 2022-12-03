@@ -1,0 +1,60 @@
+# MAVEN
+
+Ferramenta para gerenciar build e dependencias de um projeto.
+
+Sabemos que grandes projetos possuem um alto volume de classes e pacotes. Como executar testes via linha de comando para cada classe do projeto
+
+Maven nos auxiliar a cexecutar os testes e compilar classe.
+
+
+- O maven endereça como o software foi construído e suas dependencias atraves do POM (Project Objetct Model).
+
+
+- Facilita a compreensão do desenvolvedor e auxiliar a fornecer informações de qualidade.
+
+
+Criando projeto via linha de comando
+
+//gerar arquivo
+mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false
+
+groupId: refere-se ao id da orfanização. Segue regras de nomeclatura de pacotes em jaava
+
+articaftId: nome do projeto
+
+Version: versão que sera utilizada
+
+
+//executar classes
+mvn compile
+
+//testar aplicacao
+mvn test
+
+//empacotando (criando jar da aplicacao)
+mvn package
+
+//limpar diretorio de trabalho
+mvn clean
+
+Criando diferente tipo de projetos
+
+busque no google por maven archetype list para encontrar a opção que mais se encaixa no nosso cenarioa
+
+
+# POM
+
+pROJECT OBJECT MODEL, é  aunidade fundamental de trabalho e está no formato XML.
+
+No arquivo, aparece nome do projeto, depedencias, modulos, configurações de builde, detalhes do projeto, configurações de ambiente
+
+As informações basicas sao  model version, groupid, artifactid e version. Se não preenchermos a demais, ele herda do SUPER POM
+
+
+# Repositorio 
+
+Repositorio onde podemos acessar os plugins que o Maven provê. Pode ser repositório remoto ou local.
+
+# Modificar configurações do apache Maven
+É possível fazer isso atraves do arquivo setting.xml. Através do Mirror podemos escolher o repositorio remoto a ser utilizado.
+
