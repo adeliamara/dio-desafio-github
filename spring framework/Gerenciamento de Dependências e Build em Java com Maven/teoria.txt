@@ -37,6 +37,10 @@ mvn package
 //limpar diretorio de trabalho
 mvn clean
 
+//publicando localmente no repositorio um componente
+mvn install
+
+
 Criando diferente tipo de projetos
 
 busque no google por maven archetype list para encontrar a opção que mais se encaixa no nosso cenarioa
@@ -57,4 +61,5 @@ Repositorio onde podemos acessar os plugins que o Maven provê. Pode ser reposit
 
 # Modificar configurações do apache Maven
 É possível fazer isso atraves do arquivo setting.xml. Através do Mirror podemos escolher o repositorio remoto a ser utilizado.
+
 
